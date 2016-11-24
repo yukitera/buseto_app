@@ -277,6 +277,12 @@
                             <!-- /input-group -->
                         </li>
                         <li>
+                            <a href="<?php echo base_url(); ?>"><i class="fa fa-home fa-fw"></i> Home</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url(); ?>index.php/contactos_controller"><i class="fa fa-dashboard fa-fw"></i> Contacto</a>
+                        </li>
+                        <li>
                             <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
