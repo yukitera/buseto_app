@@ -3,7 +3,9 @@
 class contactos_controller extends CI_Controller {
 
 	public function index(){
-		echo "Este es el contactos controller";
+		$this -> load -> view("plantilla/header");
+		$this -> load -> view("contacto/index");
+		$this -> load -> view("plantilla/footer");
 	}
 
 	public function agregar(){
